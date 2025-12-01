@@ -22,6 +22,7 @@ scratch.cljs
 examples/quickjs/hello
 .repl
 **/public/js
+**/public
 .clerk
 .test
 scratch.js

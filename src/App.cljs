@@ -8,7 +8,7 @@
   (let [[counter setCount] (createSignal init)]
     #jsx [:div
           "Count:" (str/join " " (range (counter)))
-          [:ul (vec (interpose " " ["Hello" "world"]))]
+          [:ul (vec (interpose " " ["Help" "world"]))]
           [:div
            [:button
             {:onClick (fn []
